@@ -112,7 +112,7 @@ input:focus, textarea:focus, select:focus {
 }
 
 .after-scroll {
-  background-color: rgba(16,35,221,0.33);
+  background-color: rgba(104,123,159,0.53);
   transition: 0.3s;
 }
 
