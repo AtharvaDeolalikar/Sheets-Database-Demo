@@ -10,6 +10,9 @@
   margin: 20px;
   padding: 10px;
   border-radius: 20px;
+  border: none;
+  color: #061058;
+  font-family: 'Poppins';
 }
 
 .card:hover {
@@ -28,6 +31,9 @@
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  font-family: 'Poppins';
+  color: #061058;
+  font-weight: 600;
 }
 
 .search-input {
@@ -37,6 +43,8 @@
   border: none;
   height: 50px;
   margin-top: 20px;
+  font-family: 'Poppins';
+  padding-left: 10px;
 }
 
 .search-bar {
@@ -57,5 +65,9 @@ input:focus, textarea:focus, select:focus {
   display: none!important;
   height: 0px;
   visibility: hidden;
+}
+
+.Name {
+  font-weight: 600;
 }
 
