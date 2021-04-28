@@ -12,9 +12,6 @@
   border-radius: 20px;
 }
 
-.card: hover {
-}
-
 .card:hover {
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
   transition: 0.3s;
@@ -25,9 +22,40 @@
   font-size: 50px;
   width: 300px;
   text-align: center;
-  margin-left: 50%;
-  margin-top: 25%;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  /*position: absolute;*/
+}
+
+.search-input {
+  width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.search-bar {
+  text-align: center;
+  line-height: 4;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+.btn {
+  display: initial;
+}
+
+.hide {
+  width: 0px;
+  display: none!important;
+  height: 0px;
+  visibility: hidden;
 }
 

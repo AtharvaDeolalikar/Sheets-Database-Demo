@@ -1,7 +1,7 @@
 $(document).ready(function(){
     setTimeout(function() {
         $('#loading').fadeOut();
-    }, 1800);
+    }, 1000);
 });
 
 window.onload = function() {
@@ -22,7 +22,7 @@ function showInfo(data, tabletop) {
     var tr;
     for (var i = 0; i < data.length; i++) {
       tr = $('<div/>');
-      tr.append("<div class='card'><h5 class='Name'>"+data[i].Name+"</h5>" + "<p class='city'>" + data[i].City + "</p>" + "<p class='phn'>" + data[i].PhoneNo + "</p>" + "<p class='emailID'>" + data[i].EmailAddress + "</p>" + "<a class='link' href='"+ data[i].Link + "'>Link</a> </div>");
+      tr.append("<div class='card'><h5 class='Name'>"+data[i].Name+"</h5>" + "<p class='city'>" + data[i].City + "</p>" + "<p class='phn'>" + data[i].PhoneNo + "</p>" + "<p class='emailID'>" + data[i].EmailAddress + "</p> </div>");
       $('.cards').append(tr);
     }
     //console.log(data);
