@@ -1,6 +1,7 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .card {
@@ -18,5 +19,15 @@
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
   transition: 0.3s;
   transform: translateY(-5px);
+}
+
+#loading {
+  font-size: 50px;
+  width: 300px;
+  text-align: center;
+  margin-left: 50%;
+  margin-top: 25%;
+  transform: translate(-50%, -50%);
+  /*position: absolute;*/
 }
 
