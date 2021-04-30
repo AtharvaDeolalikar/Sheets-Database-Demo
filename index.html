@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Google Sheets as Website Database</title>
+    <title>sheets-database</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300i,400,400i,500,500i,600,600i,700,800">
@@ -13,15 +13,22 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body style="background: linear-gradient(#CAD9F3 0%, #EAF2FF 100%);min-height: 100vh;">
+<body style="background: linear-gradient(#CAD9F3 0%, #EAF2FF 100%);min-height: 110vh;">
     <div id="search-bar" class="search-bar">
         <div class="row g-0 justify-content-center align-items-center">
-            <div class="col-md-3"><input type="text" id="search-input" class="search-input" placeholder="eg. City" style="border: 0.1px none rgba(174,174,174,0.87) ;"><button class="btn btn-primary search-btn" type="button"><i class="fas fa-search"></i></button></div>
+            <div class="col-md-5 col-xxl-4"><input type="text" id="search-input" class="search-input" placeholder="eg. City" style="border: 0.1px none rgba(174,174,174,0.87) ;"><button class="btn btn-primary search-btn" type="button"><i class="fas fa-search"></i></button></div>
         </div>
     </div>
     <div class="spacer"></div>
     <div id="loading"><span>Loading...</span></div>
-    <div data-aos="fade" data-aos-duration="1000" data-aos-delay="2500" class="cards"></div>
+    <div data-aos="fade" data-aos-duration="1000" data-aos-delay="2500" class="cards">
+        <div class="card">
+            <h5 class="Name">Name</h5>
+            <p class="city">City</p>
+            <p class="phn">PhoneNo</p>
+            <p class="emailID">Email Address</p>
+        </div>
+    </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
