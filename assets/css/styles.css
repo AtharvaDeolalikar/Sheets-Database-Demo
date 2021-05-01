@@ -18,9 +18,9 @@
 }
 
 .card:hover {
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  box-shadow: 0 10px 20px rgba(33,48,165,0.3);
   transition: 0.2s;
-  transform: translateY(-5px);
+  transform: translateY(-10px);
 }
 
 #loading {
